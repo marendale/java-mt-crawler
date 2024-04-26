@@ -1,18 +1,25 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Multi-Threaded Web Crawler
 
-## Folder Structure
+## Project Setup
 
-The workspace contains two folders by default, where:
+### Opening the Project
+1. Open the project in the IDE of your choice.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Configuring the Project
+2. Add the `jsoup-1.17.2.jar` file located in the `src` folder to the classpath of your project to handle HTML parsing.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Running the Application
+3. Run `App.java` located under `src/multiThreadedWebCrawler`.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Using the Application
+1. Enter a valid URL in the "Start URL:" field.
+2. Enter a maximum crawl depth in the "Max Depth:" field.
+3. Click the "Start" button to start the web crawler.
 
-## Dependency Management
+### Controlling the Web Crawler
+- **Pause**: Temporarily stop the web crawler.
+- **Resume**: Continue the crawling process.
+- **End**: Stop the web crawler and clear the current tasks.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+You can restart the crawler with the same or different URL/depth values as many times as you like before exiting the program.
